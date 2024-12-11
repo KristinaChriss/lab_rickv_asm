@@ -105,7 +105,7 @@ begin
    state <= RESET;
    end
   else
-  val <=0;
+  val <=1;
   state <= RESET;
  end
 end
